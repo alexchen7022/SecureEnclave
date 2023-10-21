@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "35AF8CF5-9D92-46DC-A60E-09C12BCCE49C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SecureEnclave.xcodeproj",
+      "identifier" : "BDF09F522AE3F4F200324305",
+      "name" : "SecureEnclave"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SecureEnclave.xcodeproj",
+        "identifier" : "BDF09F632AE3F4F300324305",
+        "name" : "SecureEnclaveTests"
+      }
+    }
+  ],
+  "version" : 1
+}

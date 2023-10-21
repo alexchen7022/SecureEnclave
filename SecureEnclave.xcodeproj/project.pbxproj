@@ -10,6 +10,10 @@
 		BDF09F822AE3F58B00324305 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09F812AE3F58B00324305 /* main.swift */; };
 		BDF09F842AE3F62500324305 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09F832AE3F62500324305 /* CryptoService.swift */; };
 		BDF09F862AE3F6D800324305 /* CryptoServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09F852AE3F6D800324305 /* CryptoServiceTest.swift */; };
+		BDF09F882AE3FB5B00324305 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09F872AE3FB5B00324305 /* KeyChainService.swift */; };
+		BDF09F8A2AE3FC0D00324305 /* KeyChainServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09F892AE3FC0D00324305 /* KeyChainServiceTest.swift */; };
+		BDF09F8F2AE4002A00324305 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09F872AE3FB5B00324305 /* KeyChainService.swift */; };
+		BDF09F902AE4002C00324305 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09F832AE3F62500324305 /* CryptoService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,9 @@
 		BDF09F812AE3F58B00324305 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BDF09F832AE3F62500324305 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 		BDF09F852AE3F6D800324305 /* CryptoServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoServiceTest.swift; sourceTree = "<group>"; };
+		BDF09F872AE3FB5B00324305 /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		BDF09F892AE3FC0D00324305 /* KeyChainServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainServiceTest.swift; sourceTree = "<group>"; };
+		BDF09F8E2AE3FF7F00324305 /* SecureEnclave.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SecureEnclave.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +59,7 @@
 		BDF09F4A2AE3F4F200324305 = {
 			isa = PBXGroup;
 			children = (
+				BDF09F8E2AE3FF7F00324305 /* SecureEnclave.xctestplan */,
 				BDF09F552AE3F4F200324305 /* SecureEnclave */,
 				BDF09F672AE3F4F300324305 /* SecureEnclaveTests */,
 				BDF09F542AE3F4F200324305 /* Products */,
@@ -71,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				BDF09F5F2AE3F4F300324305 /* SecureEnclave.entitlements */,
+				BDF09F872AE3FB5B00324305 /* KeyChainService.swift */,
 				BDF09F812AE3F58B00324305 /* main.swift */,
 				BDF09F832AE3F62500324305 /* CryptoService.swift */,
 			);
@@ -81,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				BDF09F852AE3F6D800324305 /* CryptoServiceTest.swift */,
+				BDF09F892AE3FC0D00324305 /* KeyChainServiceTest.swift */,
 			);
 			path = SecureEnclaveTests;
 			sourceTree = "<group>";
@@ -184,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF09F882AE3FB5B00324305 /* KeyChainService.swift in Sources */,
 				BDF09F842AE3F62500324305 /* CryptoService.swift in Sources */,
 				BDF09F822AE3F58B00324305 /* main.swift in Sources */,
 			);
@@ -193,7 +204,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF09F902AE4002C00324305 /* CryptoService.swift in Sources */,
+				BDF09F8F2AE4002A00324305 /* KeyChainService.swift in Sources */,
 				BDF09F862AE3F6D800324305 /* CryptoServiceTest.swift in Sources */,
+				BDF09F8A2AE3FC0D00324305 /* KeyChainServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

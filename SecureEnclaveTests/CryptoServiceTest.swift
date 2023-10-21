@@ -6,8 +6,7 @@
 //
 
 import XCTest
-@testable import SecureEnclave
-
+//@testable import SecureEnclave
 final class CryptoServiceTest: XCTestCase {
 
     var sut : CryptoService!
