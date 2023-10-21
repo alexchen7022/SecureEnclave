@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import Foundation
+
+print("hello")
+let generatedKey = try CryptoService.generatePrivateKey()
+let service = try CryptoService(privateKey: generatedKey)
+let privateKey = service.getPrivateKey()
+
+print(privateKey.rawRepresentation)
+
